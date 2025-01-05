@@ -1,5 +1,5 @@
-import { Box, Image, Text } from "@chakra-ui/react";
-import React, { useEffect, useState } from "react";
+import { Box, Text } from "@chakra-ui/react";
+
 
 export default function Post({ title, sourse, link }) {
   return (

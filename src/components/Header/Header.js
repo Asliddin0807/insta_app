@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Heading, Button, Spacer, Link } from "@chakra-ui/react";
+import { Box, Flex, Heading, Button, Spacer } from "@chakra-ui/react";
 export default function Header() {
   return (
     <Box bg="gray.900" px={4} py={5} color="white">
