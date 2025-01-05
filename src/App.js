@@ -63,6 +63,7 @@ function App() {
             placeholder="Instagram link"
             onChange={(e) => setUrl(e.target.value)}
             value={url}
+            color={'white'}
           />
           <Button
             onClick={fetchData}

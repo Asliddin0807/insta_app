@@ -10,10 +10,10 @@ export default function Post({ title, sourse, link }) {
           controls
           style={{ width: "360px", height: "300px" }}
         />
-        <Text textAlign={"start"} fontSize={20}>
+        <Text textAlign={"start"} fontSize={20} color={'white'}>
           Platforma: {sourse}
         </Text>
-        <Text textAlign={"start"} fontSize={18}>
+        <Text textAlign={"start"} fontSize={18} color={'white'}>
           {title?.slice(0, 35)}...
         </Text>
       </Box>
