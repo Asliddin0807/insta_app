@@ -44,7 +44,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <Box className="App" bg={'gray.700'}>
       <Header />
       <Box mt={10} p={5} w={"100%"}>
         <Text fontSize={25} textAlign={"center"} fontFamily={"monospace"}>
@@ -83,7 +83,7 @@ function App() {
           ""
         )}
       </Box>
-    </div>
+    </Box>
   );
 }
 
